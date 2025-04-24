@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Jadwal Kuliah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      color: #2d3748;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+      width: 90%;
+      overflow-y: auto;
+      max-height: 90vh;
+      animation: fadeIn 1.2s ease;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #4a5568;
+    }
+
+    .day {
+      margin-bottom: 15px;
+    }
+
+    .day-title {
+      font-weight: 700;
+      color: #2b6cb0;
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+
+    .course {
+      margin-left: 20px;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-style: italic;
+      color: #718096;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    a.button {
+      background-color: #4299e1;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #2b6cb0;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Jadwal Kuliah Semester 6</h1>
+
+    <div class="day">
+      <div class="day-title">📌 Senin</div>
+      <div class="course">📍 Komputer dan Pemrograman (Coding) — R.20 | 08.00–09.40</div>
+      <div class="course">📍 Rekayasa Proses — R.20 | 10.00–11.40</div>
+      <div class="course">📍 Karya Tulis Ilmiah (KTI) — R.4 | 14.00–15.40</div>
+    </div>
+
+    <div class="day">
+      <div class="day-title">📌 Selasa</div>
+      <div class="course">📍 Kewirausahaan — R.10 | 12.00</div>
+    </div>
+
+    <div class="day">
+      <div class="day-title">📌 Rabu</div>
+      <div class="course">📍 Bahasa Inggris Akademik — R.23 | 10.00–11.40</div>
+      <div class="course">📍 Analisis Pengambilan Keputusan — R.4 | 14.00–15.40</div>
+    </div>
+
+    <div class="day">
+      <div class="day-title">📌 Kamis</div>
+      <div class="course">📍 Mekanisasi Pertanian — R.17 | 10.00–11.40</div>
+      <div class="course">📍 Manajemen Mutu — R.17 | 14.00–15.40</div>
+    </div>
+
+    <div class="day">
+      <div class="day-title">📌 Jumat</div>
+      <div class="course">📍 Teknologi Hasil Perkebunan — R.9 | 08.00–09.40</div>
+      <div class="course">📍 Sanitasi Industri — R.20 | 10.00</div>
+    </div>
+
+    <div class="note">
+      ✨ Studi Lapang Industri Pertanian &mdash; <em>(dijadwalkan terpisah)</em><br>
+      ✨ MAGANG &mdash; <em>(dijadwalkan terpisah)</em>
+    </div>
+
+    <div class="buttons">
+      <a href="biodata.html" class="button">⬅ Biodata</a>
+      <a href="index.html" class="button">Beranda ➡</a>
+    </div>
+  </div>
+</body>
+</html>
